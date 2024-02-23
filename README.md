@@ -1,5 +1,5 @@
-# Tailwind CSS gridX
-A Tailwind CSS plugin that adds an extra ordinary grid-x perience
+# Tailwind CSS "grid-x" Plugin
+A Tailwind CSS plugin that adds an extraordinary *__grid-x-perience__* by adding easy-to-use **full**/**breakout**/**content**/**narrow** grid column template areas.
 
 <img src="screenshot.png" width="100%">
 
