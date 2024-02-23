@@ -76,6 +76,29 @@ In addition there are classes for specific use cases:
 | `col-narrow-left`         | The left side of the narrow area    |
 | `col-narrow-right`        | The right side of the narrow area   |
 
+---
+
+## Customization
+
+### Configure max-widths and inline paddings
+It is of course possible to adjust the maximum width of the grid column template areas as well as the paddings towards the side of the browser. Simply override the corresponding css vars in the `styles/app.css` of your project:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --narrow-max-w: 1200px;
+    --content-max-w: 1500px;
+    --breakout-max-w: 1700px;
+    --narrow-px: 1rem;
+    --content-px: 1rem;
+    --breakout-px: 0rem;
+  /* ... */
+}
+```
+
 ### Changing the default class name
 
 If you need to use a class name other than `grid-x` for any reason, you can do so using the `className` option when registering the plugin:
