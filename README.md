@@ -94,3 +94,6 @@ module.exports = {
   ...
 }
 ```
+---
+## Copying / License
+This repository is distributed under the MIT License (MIT). You can find the whole license text in the [LICENSE](LICENSE) file.
