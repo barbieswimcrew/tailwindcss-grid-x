@@ -1,0 +1,24 @@
+{
+  "name": "@barbieswimcrew/tailwindcss-grid-x",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS plugin that adds an extraordinary grid-x perience",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barbieswimcrew/tailwindcss-grid-x.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "tailwind",
+    "grid",
+    "plugin"
+  ],
+  "author": "Martin Schindler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barbieswimcrew/tailwindcss-grid-x/issues"
+  },
+  "homepage": "https://github.com/barbieswimcrew/tailwindcss-grid-x#readme"
+}
