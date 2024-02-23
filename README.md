@@ -1,4 +1,4 @@
-# tailwindcss-grid-x
+# Tailwind CSS gridX
 A Tailwind CSS plugin that adds an extra ordinary grid-x perience
 
 <img src="screenshot.png" width="100%">
