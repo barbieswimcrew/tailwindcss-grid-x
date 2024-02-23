@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/barbieswimcrew/tailwindcss-grid-x/issues"
   },
-  "homepage": "https://github.com/barbieswimcrew/tailwindcss-grid-x#readme"
+  "homepage": "https://github.com/barbieswimcrew/tailwindcss-grid-x#readme",
+  "peerDependencies": {
+    "tailwindcss": "^1.0 || ^2.0 || ^3.0.0-alpha.1 || ^3.0"
+  }
 }
