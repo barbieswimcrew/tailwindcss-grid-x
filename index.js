@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = plugin.withOptions(
     ({ className= 'grid-x' } = {}) => {
-        return function ({ addBase, addComponents, matchUtilities, theme }) {
+        return function ({ addBase, addComponents, addUtilities, theme }) {
 
             addBase({
                 ':root': {
@@ -36,7 +36,7 @@ module.exports = plugin.withOptions(
                 }
             });
 
-            matchUtilities(
+            addUtilities(
                 {
                     col: (value) => ({
                         gridColumn: value
