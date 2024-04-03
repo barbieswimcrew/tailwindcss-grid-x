@@ -88,14 +88,16 @@ It is of course possible to adjust the maximum width of the grid column template
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    --narrow-max-w: 1200px;
-    --content-max-w: 1500px;
-    --breakout-max-w: 1700px;
-    --narrow-px: 1rem;
-    --content-px: 1rem;
-    --breakout-px: 0rem;
-  /* ... */
+@layer base {
+  :root{
+      --narrow-max-w: 1200px;
+      --content-max-w: 1500px;
+      --breakout-max-w: 1700px;
+      --narrow-px: 1rem;
+      --content-px: 1rem;
+      --breakout-px: 0rem;
+    /* ... */
+  }
 }
 ```
 
