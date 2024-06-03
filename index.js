@@ -49,19 +49,21 @@ module.exports = plugin.withOptions(
     () => {
         return {
             theme: {
-                gridColumn: {
-                    "breakout": "breakout",
-                    "breakout-left": "breakout-start / content-center",
-                    "breakout-right": "content-center / breakout-end",
-                    "content": "content",
-                    "content-left": "content-start / content-center",
-                    "content-right": "content-center / content-end",
-                    "narrow": "narrow",
-                    "narrow-left": "narrow-start / content-center",
-                    "narrow-right": "content-center / narrow-end",
-                    "full": "full",
-                    "full-left": "full-start / content-center",
-                    "full-right": "content-center / full-end",
+                extend: {
+                    gridColumn: {
+                        "breakout": "breakout",
+                        "breakout-left": "breakout-start / content-center",
+                        "breakout-right": "content-center / breakout-end",
+                        "content": "content",
+                        "content-left": "content-start / content-center",
+                        "content-right": "content-center / content-end",
+                        "narrow": "narrow",
+                        "narrow-left": "narrow-start / content-center",
+                        "narrow-right": "content-center / narrow-end",
+                        "full": "full",
+                        "full-left": "full-start / content-center",
+                        "full-right": "content-center / full-end",
+                    }
                 }
             }
         }
