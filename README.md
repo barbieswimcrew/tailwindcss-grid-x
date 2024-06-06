@@ -76,6 +76,8 @@ In addition there are classes for specific use cases:
 | `col-narrow-left`         | The left side of the narrow area    |
 | `col-narrow-right`        | The right side of the narrow area   |
 
+Of course, it can also be fancy! Just play around a bit yourself and try things like... `col-[narrow-start_/_content-end]` ;-)
+
 ---
 
 ## Customization
