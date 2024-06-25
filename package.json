@@ -1,6 +1,6 @@
 {
   "name": "@barbieswimcrew/tailwindcss-grid-x",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A Tailwind CSS plugin that adds an extraordinary grid-x perience",
   "main": "index.js",
   "repository": {
